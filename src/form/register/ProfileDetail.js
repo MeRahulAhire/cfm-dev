@@ -64,7 +64,7 @@ export class ProfileDetail extends Component {
                       <div className="add-picture">
                         <div className="image-preview" id="imagePreview">
 	                       <div className="card-image"></div>
-	                      <img  className="image-preview__image"/>
+	                      <img alt="" className="image-preview__image"/>
 		                   <span className="image-preview__default-text"></span>
 	                    </div>
                         
