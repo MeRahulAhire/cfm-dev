@@ -27,37 +27,37 @@ export class UserDetail extends Component {
                   <div className="user-detail firstName">
                       First Name:
                       <input 
-                      type="text" 
+                       
                       onChange={handleChange('FirstName')}  
                       defaultValue={values.FirstName}
                       placeholder="Enter your First Name" />
                   </div>
                   <div className="user-detail lastName">
                       Last Name:
-                      <input onChange={handleChange('LastName')}  
+                      <input type="text" onChange={handleChange('LastName')}  
                       defaultValue={values.LastName}
-                      type="text" placeholder="Enter your Last Name" />
+                       placeholder="Enter your Last Name" />
                   </div>
                   <div className="user-detail gender">
                       Gender:
-                      <div className="drop-down">
+                      <div className="drop-down"  >
                       <select
                       onChange={handleChange('Gender')}  
-                      defaultValue={values.Gender} 
+                      defaultValue={values.Gender}
                       className="gender-select" 
                       name="" 
                       id="">
 
-                      <option selected disabled>Select your Gender</option>
+                      <option hidden>Select your Gender</option>
                           <option value="Male">Male</option>
                           <option value="Female">Female</option>
                       </select>
                       </div>
                   </div>
-                  <div className="user-detail dob">
+                  <div className="user-detail dateOfBirth">
                       Date of Birth:
-                      <input onChange={handleChange('DOB')}  
-                      defaultValue={values.DOB} type="date" placeholder="Select your DOB" />
+                      <input className="dob" onChange={handleChange('DOB')}  
+                      defaultValue={values.DOB} type="date" placeholder="When did you Born?" />
                       
                   </div>
                   

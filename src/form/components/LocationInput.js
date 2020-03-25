@@ -17,6 +17,7 @@ export default function LocationInput() {
         value={address}
         onChange={setAddress}
         onSelect={handleSelect}
+        
       >
         {({ getInputProps, suggestions, getSuggestionItemProps, loading }) => (
           <div >

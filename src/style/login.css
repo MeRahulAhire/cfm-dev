@@ -14,16 +14,19 @@
     background-position: top right;
     background-attachment: fixed;
     z-index:-99;
+    
 }
 .login{
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .container{
     width: 400px;
     height: 400px;
     background-color: rgba(255, 255, 255, 0.8);
     margin: auto;
-    transform: translateY(50%);
     border-radius: 20px;
 
 }
@@ -118,7 +121,7 @@
 
 @media screen and (max-width:550px){
     .bg-img{
-        background-position: -65vh;
+        background-position: -400px;
     }
     .container{
         transform: translateY(40%);
@@ -126,36 +129,24 @@
 }
 @media screen and (max-width:450px){
     
+    .bg-img{
+        background-position: -400px;
+    }
     .container{
         width: 300px;  
      
     }
 }
 
-@media screen and (max-width:450px){
-    
-    .container{
-        width: 300px;  
-     
-    }
-}
 @media screen and (max-height:450px){
     
     .bg-img{
-        background-position: top right;
+        background-position: center;
     }
     .container{
 
         transform: translateY(25%);
     }
-    .login{
-        height: 150vh;
-    }
-}
-@media screen and (max-height:550px){
     
-    .bg-img{
-        background-position: center;
-    }
     
 }

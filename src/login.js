@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './style/login.css'
 import Navbar from './navbar'
-import Helmet from 'react-helmet'
+import {Helmet} from 'react-helmet'
 import {Link} from 'react-router-dom'
 
 export class Container extends Component {
@@ -18,6 +18,10 @@ export class Container extends Component {
            <Navbar/>
            <Helmet>
            <title>College Facemash - Login</title>
+           <meta
+             name="description"
+             content="Login to college Facemash  "
+            />
            <body className="bg-img">
            
            </body>
@@ -34,7 +38,7 @@ export class Container extends Component {
                 <div className="username">Username: 
 					
 					<br/>
-						<input placeholder="Enter your Username" autocomplete="false" type="text"/>
+						<input placeholder="Enter your Email or Username" autocomplete="false" type="text"/>
 						</div>
 						<div className="password">Password: 
 							

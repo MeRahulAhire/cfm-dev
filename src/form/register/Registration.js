@@ -48,8 +48,8 @@ export class Registration extends Component {
   };
     render() {
         const { step } = this.state;
-    const { CollegeName, Branch, YearOfAdmission, firstName, lastName, Gender, DOB, Email, Username, Password, Password2,ProfilePic, Description } = this.state;
-    const values = { CollegeName, Branch, YearOfAdmission, firstName, lastName, Gender, DOB, Email, Username, Password, Password2,ProfilePic, Description };
+    const { CollegeName, Branch, YearOfAdmission, FirstName, LastName, Gender, DOB, Email, Username, Password, ProfilePic, Description } = this.state;
+    const values = { CollegeName, Branch, YearOfAdmission, FirstName, LastName, Gender, DOB, Email, Username, Password, ProfilePic, Description };
         switch(step){
           case 1:
             return(
