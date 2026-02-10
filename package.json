@@ -16,7 +16,7 @@
     "react-phone-number-input": "^3.0.16",
     "react-places-autocomplete": "^7.2.1",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.3.0",
+    "react-scripts": "5.0.1",
     "react-telephone-input": "^4.75.4"
   },
   "scripts": {
